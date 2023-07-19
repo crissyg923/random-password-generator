@@ -31,7 +31,11 @@ if (specialcharacters) {
   var specialcharactersarray = ['!','@','#','$','%','^','*','?'];
   passwordCharacters.unshift(specialcharactersarray);
 }
-return passwordCharacters;
+for (var i=0; i<passwordLength; i++){
+  var index = Math.floor(Math.random() * passwordCharacters.length);
+  var finalpassword = passwordCharacters[index];
+}
+return finalpassword;
 }
 
 
