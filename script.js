@@ -7,13 +7,31 @@ var generatePassword= function(){
     return;
   }
   if (passwordLength >7 || passwordLength <129) {
-    var lowercaseletters= window.prompt("would you like to include lowercase letters?");
-    var uppercareletters=window.prompt("Would you like to include uppercase letters?");
-    var numbers=window.prompt("Would you like to include numerical values?");
-    var specialcharacters=window.prompt("Would you like yo include special characters?");
+    var lowercaseletters= window.confirm("would you like to include lowercase letters?");
+    var uppercareletters=window.confirm("Would you like to include uppercase letters?");
+    var numbers=window.confirm("Would you like to include numerical values?");
+    var specialcharacters=window.confirm("Would you like yo include special characters?");
   }
+var passwordCharacters= [];
 
+if (lowercaseletters) {
+  var lowercaselettersarray =['a', 'b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+  passwordCharacters.unshift(lowercaselettersarray);
+}
 
+if (uppercareletters){
+  var uppercaselettersarray = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+  passwordCharacters.unshift(uppercaselettersarray);
+} 
+if (numbers){
+  var numbersarray = [1,2,3,4,5,6,7,8,9,0];
+  passwordCharacters.unshift(numbersarray);
+}
+if (specialcharacters) {
+  var specialcharactersarray = ['!','@','#','$','%','^','*','?'];
+  passwordCharacters.unshift(specialcharactersarray);
+}
+return passwordCharacters;
 }
 
 
