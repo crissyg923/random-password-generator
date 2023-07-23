@@ -4,7 +4,7 @@
 ## Project Description
 
 * [Link to Repo](https://github.com/crissyg923/random-password-generator)
-* [Link to Deployed Site](https://crissyg923.github.io/module-2-challenge/)
+* [Link to Deployed Site](https://crissyg923.github.io/random-password-generator/)
 
  
 I will start by saying this was definitely the most challenging assignment for me thus far.  The goal of this Module 3 Challenge was to create a random password generator based on user-chosen criteria.  The hardest part for me was figuring out what to do with all of those characters chosen by the user including how to compile them, randomize them, and then spit them back to the user.  The list of what I learned is exhaustive, but a few of the key lessons I learned are:
@@ -55,7 +55,7 @@ You can contribute to this project by writing a cleaner code or making it more e
 
 ## Credits
 
-This site was created with the assistance of the TA's in office hours, a Rutgers tutor, Chrom DevTools, and various google searches.  Here are a few of the google links that helped me the most:
+This site was created with the assistance of the TA's in office hours, a Rutgers tutor, Chrome DevTools, and various google searches.  Here are a few of the google links that helped me the most:
 
 [Setting a Range of Numbers as a Variable](https://stackoverflow.com/questions/35004505/set-a-range-of-numbers-as-a-variable-javascript)
 
@@ -91,7 +91,7 @@ SOFTWARE.
 # How to Contribute
 
 
-# Contributor Covenant Code of Conduct
+## Contributor Covenant Code of Conduct
 
 ## Our Pledge
 
